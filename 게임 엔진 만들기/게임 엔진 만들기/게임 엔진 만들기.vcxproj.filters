@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\UI헤더">
+      <UniqueIdentifier>{2f1c05c9-6332-4ba5-92e1-0325975d0f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI소스">
+      <UniqueIdentifier>{5bcdc509-0443-4bc9-b6cd-311bdeea0920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene 소스">
+      <UniqueIdentifier>{97628ffe-3cdf-4419-8733-e819b2458692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Scene헤더">
+      <UniqueIdentifier>{a45c6118-4a1c-4b17-a6f9-a4fed047d137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object 소스">
+      <UniqueIdentifier>{947bfa92-fa97-4122-9f32-9e4c45b3cad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Object 헤더">
+      <UniqueIdentifier>{7f04003c-f5bf-4f24-8468-139f49212ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Components 소">
+      <UniqueIdentifier>{cf22f218-27db-416e-9475-72532f348aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Components 헤더">
+      <UniqueIdentifier>{53c29f12-1c39-4381-a7d8-94a2ca02aa07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager 소스">
+      <UniqueIdentifier>{183482e0-2e68-45ea-abb0-11ee62f0746f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Manager 헤더">
+      <UniqueIdentifier>{15bb3afa-bcdb-475b-95cd-e73f77bb43cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Character 헤더">
+      <UniqueIdentifier>{899c2771-00e2-49ea-8821-ecaa419bbf21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Character 소스">
+      <UniqueIdentifier>{b1deafad-aaf7-4e95-aab9-2ef8401454dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object 소스\Item 소스">
+      <UniqueIdentifier>{00299469-5638-48bb-bef2-d61d8e8a2f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Object 헤더\Item 헤더">
+      <UniqueIdentifier>{33504d0e-e028-4cde-8104-15b155935afb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WinApiEngine.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>소스 파일\UI소스</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImage.cpp">
+      <Filter>소스 파일\UI소스</Filter>
+    </ClCompile>
+    <ClCompile Include="UILabel.cpp">
+      <Filter>소스 파일\UI소스</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>소스 파일\UI소스</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPanel.cpp">
+      <Filter>소스 파일\UI소스</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\Components 소</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\SpriteAnimation.cpp">
+      <Filter>소스 파일\Components 소</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\SpriteRenderer.cpp">
+      <Filter>소스 파일\Components 소</Filter>
+    </ClCompile>
+    <ClCompile Include="StageScene.cpp">
+      <Filter>소스 파일\Scene 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>소스 파일\Object 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>소스 파일\Manager 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>소스 파일\Manager 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>소스 파일\Manager 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>소스 파일\Components 소</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>소스 파일\Scene 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>소스 파일\Object 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>소스 파일\Object 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Potal.cpp">
+      <Filter>소스 파일\Object 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="PotalOut.cpp">
+      <Filter>소스 파일\Object 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Character 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\Character 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\Character 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="BombEffect.cpp">
+      <Filter>소스 파일\Object 소스\Item 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="BombObject.cpp">
+      <Filter>소스 파일\Object 소스\Item 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\Object 소스\Item 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>소스 파일\Object 소스\Item 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterSnake.cpp">
+      <Filter>소스 파일\Character 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterBat.cpp">
+      <Filter>소스 파일\Character 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBall.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RankManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RankScene.cpp">
+      <Filter>소스 파일\Scene 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpScene.cpp">
+      <Filter>소스 파일\Scene 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodTrap.cpp">
+      <Filter>소스 파일\Object 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PlayerInput.cpp">
+      <Filter>소스 파일\Components 소</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Math.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineMecro.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WinApiEngine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>헤더 파일\UI헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImage.h">
+      <Filter>헤더 파일\UI헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="UILabel.h">
+      <Filter>헤더 파일\UI헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>헤더 파일\UI헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPanel.h">
+      <Filter>헤더 파일\UI헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="StageScene.h">
+      <Filter>헤더 파일\Scene헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>헤더 파일\Scene헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>헤더 파일\Scene헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>헤더 파일\Object 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\SpriteAnimation.h">
+      <Filter>헤더 파일\Components 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\SpriteRenderer.h">
+      <Filter>헤더 파일\Components 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>헤더 파일\Manager 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>헤더 파일\Manager 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>헤더 파일\Manager 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>헤더 파일\Manager 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>헤더 파일\Components 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>헤더 파일\Object 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>헤더 파일\Object 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Potal.h">
+      <Filter>헤더 파일\Object 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="PotalOut.h">
+      <Filter>헤더 파일\Object 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일\Character 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>헤더 파일\Character 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>헤더 파일\Character 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>헤더 파일\Object 헤더\Item 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>헤더 파일\Object 헤더\Item 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="BombObject.h">
+      <Filter>헤더 파일\Object 헤더\Item 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="BombEffect.h">
+      <Filter>헤더 파일\Object 헤더\Item 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodTrap.h">
+      <Filter>헤더 파일\Object 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterBat.h">
+      <Filter>헤더 파일\Character 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterSnake.h">
+      <Filter>헤더 파일\Character 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBall.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RankManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RankScene.h">
+      <Filter>헤더 파일\Scene헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpScene.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PlayerInput.h">
+      <Filter>헤더 파일\Components 헤더</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
